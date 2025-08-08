@@ -1,14 +1,12 @@
 import argparse
 import json
-import sys
 import os
 import subprocess
 import binascii
 import string
 import struct
 import shutil
-import xml.etree.ElementTree
-from pkg_resources import parse_version
+from packaging.version import parse as parse_version
 from xml.dom import minidom
 
 
